@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.topjohnwu.magisk.core.Info" />
+
+        <variable
+            name="viewModel"
+            type="com.topjohnwu.magisk.ui.module.ModuleViewModel" />
+
+    </data>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        goneUnless="@{Info.env.isActive}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:elevation="@dimen/btn_highlight"
+        android:layout_marginStart="@dimen/l1"
+        android:layout_marginEnd="@dimen/l1"
+        android:layout_marginBottom="64dp"
+        android:onClick="@{() -> viewModel.installPressed()}"
+        app:layout_fitsSystemWindowsInsets="bottom"
+        app:srcCompat="@drawable/ic_module_storage_md2"
+        tools:layout_marginBottom="64dp"/>
+
+</layout>

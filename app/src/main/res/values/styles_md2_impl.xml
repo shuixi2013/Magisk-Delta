@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="WidgetFoundation.Appbar" parent="Widget.Material3.AppBarLayout" />
+
+    <style name="WidgetFoundation.Toolbar" parent="Widget.Material3.Toolbar.Surface">
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="android:layout_height">?android:actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.Material3.ActionBar</item>
+    </style>
+
+    <style name="GrantPermissionsButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:minWidth">277dp</item>
+        <item name="android:maxHeight">56dp</item>
+        <item name="android:maxWidth">277dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?colorPrimaryContainer</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="WidgetFoundation.Card.Primary">
+        <item name="cardBackgroundColor">?colorPrimary</item>
+    </style>
+
+    <style name="GrantPermissionsButtons.Top">
+        <item name="android:background">@drawable/grant_permissions_buttons_top</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <style name="GrantPermissionsButtons.Buttom">
+        <item name="android:background">@drawable/grant_permissions_buttons_bottom</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <style name="WidgetFoundation.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="android:focusable">auto</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardElevation">@dimen/l2</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="WidgetFoundation.Card.Shadowless" parent="Widget.Material3.CardView.Elevated">
+        <item name="android:focusable">auto</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="WidgetFoundation.Card.Elevated.V21" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/l2</item>
+        <item name="cardElevation">@dimen/l2</item>
+    </style>
+
+    <style name="WidgetFoundation.Card.Elevated" parent="WidgetFoundation.Card.Elevated.V21"/>
+
+    <style name="WidgetFoundation.Card.Elevated.Dialog" parent="WidgetFoundation.Card.Elevated.V21">
+        <item name="android:colorBackground">?colorSurfaceVariant</item>
+        <item name="backgroundTint">?colorSurfaceVariant</item>
+        <item name="tint">?colorSurfaceVariant</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+    <style name="WidgetFoundation.Button" parent="Widget.Material3.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/l_50</item>
+    </style>
+
+    <style name="WidgetFoundation.Button.Error">
+        <item name="backgroundTint">@color/error</item>
+        <item name="iconTint">@color/on_error</item>
+        <item name="android:textColor">@color/on_error</item>
+    </style>
+
+    <style name="WidgetFoundation.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textStyle">bold</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/l_50</item>
+        <item name="strokeColor">?colorPrimary</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="WidgetFoundation.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textStyle">bold</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/l_50</item>
+        <item name="tint">#BD1C1C</item>
+    </style>
+
+    <style name="WidgetFoundation.Button.Text.OnPrimary">
+        <item name="rippleColor">?colorOnPrimary</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="iconTint">?colorOnPrimary</item>
+    </style>
+
+
+    <style name="WidgetFoundation.Image">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+
+    <style name="WidgetFoundation.Image.Big">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="WidgetFoundation.Image.Small">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+
+
+    <style name="WidgetFoundation.Icon" parent="WidgetFoundation.Image.Big">
+        <item name="android:padding">@dimen/l_75</item>
+    </style>
+
+    <style name="WidgetFoundation.Checkbox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:paddingStart">@dimen/l1</item>
+        <item name="android:paddingEnd">@dimen/l1</item>
+    </style>
+
+    <style name="WidgetFoundation.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:paddingStart">@dimen/l1</item>
+        <item name="android:paddingEnd">@dimen/l1</item>
+    </style>
+
+    <style name="WidgetFoundation.ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminate">false</item>
+        <item name="android:layout_height">4dp</item>
+    </style>
+
+    <style name="WidgetFoundation.ProgressBar.Indeterminate" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminate">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:indeterminateTint">?colorPrimary</item>
+    </style>
+
+</resources>

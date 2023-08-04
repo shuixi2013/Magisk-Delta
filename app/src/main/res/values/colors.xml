@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FF004C</color>
+    <color name="dark">#00796B</color>
+    <color name="light">#e0e0e0</color>
+    <color name="su_request_background">#e0e0e0</color>
+    <color name="icon_accent">@android:color/system_accent2_700</color>
+    <color name="icon_accent_bg">@android:color/system_accent1_100</color>
+    <color name="splash_background">?android:colorBackground</color>
+    <color name="switch_state_on">@android:color/system_accent1_100</color>
+    <color name="switch_state_off">@android:color/system_accent2_100</color>
+    <color name="switch_thumb_disabled">@android:color/system_neutral2_100</color>
+    <color name="switch_thumb_off">@android:color/system_neutral2_300</color>
+    <color name="switch_track_on">@android:color/system_accent1_600</color>
+    <color name="switch_track_off">@color/color_switch_track_off</color>
+    <color name="error">#ba1a1a</color>
+    <color name="on_error">#ffffff</color>
+    <color name="request_dialog">@android:color/system_neutral2_100</color>
+</resources>

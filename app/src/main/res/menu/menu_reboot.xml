@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_reboot_normal"
+        android:title="@string/reboot" />
+
+    <item
+        android:id="@+id/action_reboot_core_only"
+        android:title="@string/reboot_core_only" />
+
+    <item
+        android:id="@+id/action_reboot_userspace"
+        android:title="@string/reboot_userspace"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/action_reboot_recovery"
+        android:title="@string/reboot_recovery" />
+
+    <item
+        android:id="@+id/action_reboot_bootloader"
+        android:title="@string/reboot_bootloader" />
+
+    <item
+        android:id="@+id/action_reboot_download"
+        android:title="@string/reboot_download" />
+
+    <item
+        android:id="@+id/action_reboot_edl"
+        android:title="@string/reboot_edl" />
+
+    <item
+        android:id="@+id/action_unload_magisk"
+        android:title="@string/settings_unload_magisk_title" />
+
+</menu>

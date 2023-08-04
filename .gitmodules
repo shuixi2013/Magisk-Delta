@@ -1,0 +1,48 @@
+[submodule "native/src/external/selinux"]
+	path = native/src/external/selinux
+	url = https://github.com/topjohnwu/selinux.git
+[submodule "native/src/external/busybox"]
+	path = native/src/external/busybox
+	url = https://github.com/topjohnwu/ndk-busybox.git
+[submodule "native/src/external/dtc"]
+	path = native/src/external/dtc
+	url = https://github.com/dgibson/dtc.git
+[submodule "native/src/external/lz4"]
+	path = native/src/external/lz4
+	url = https://github.com/lz4/lz4.git
+[submodule "native/src/external/bzip2"]
+	path = native/src/external/bzip2
+	url = https://github.com/nemequ/bzip2.git
+[submodule "native/src/external/xz"]
+	path = native/src/external/xz
+	url = https://github.com/xz-mirror/xz.git
+[submodule "native/src/external/nanopb"]
+	path = native/src/external/nanopb
+	url = https://github.com/nanopb/nanopb.git
+[submodule "native/src/external/mincrypt"]
+	path = native/src/external/mincrypt
+	url = https://github.com/topjohnwu/mincrypt.git
+[submodule "native/src/external/prce"]
+	path = native/src/external/prce
+	url = https://android.googlesource.com/platform/external/pcre
+[submodule "native/src/external/libcxx"]
+	path = native/src/external/libcxx
+	url = https://github.com/topjohnwu/libcxx.git
+[submodule "native/src/external/zlib"]
+	path = native/src/external/zlib
+	url = https://android.googlesource.com/platform/external/zlib
+[submodule "native/src/external/parallel-hashmap"]
+	path = native/src/external/parallel-hashmap
+	url = https://github.com/greg7mdp/parallel-hashmap.git
+[submodule "native/src/external/zopfli"]
+	path = native/src/external/zopfli
+	url = https://github.com/google/zopfli.git
+[submodule "native/src/external/cxx-rs"]
+	path = native/src/external/cxx-rs
+	url = https://github.com/topjohnwu/cxx.git
+[submodule "native/src/external/lsplt"]
+	path = native/src/external/lsplt
+	url = https://github.com/LSPosed/LSPlt.git
+[submodule "tools/termux-elf-cleaner"]
+	path = tools/termux-elf-cleaner
+	url = https://github.com/termux/termux-elf-cleaner.git
